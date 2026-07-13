@@ -1,0 +1,14 @@
+:root {
+  --sidebar-bg: #0f172a;
+  --primary: #2563eb;
+  --success: #10b981;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+}
+body { background: #f5f7fb; font-family: 'Segoe UI', sans-serif; }
+.sidebar { min-height: 100vh; background: var(--sidebar-bg); }
+.sidebar .nav-link { color: #cbd5e1; border-radius: 8px; padding: 0.7rem 0.9rem; }
+.sidebar .nav-link:hover, .sidebar .nav-link.active { background: #1e293b; color: white; }
+.card { transition: transform .2s ease, box-shadow .2s ease; }
+.card:hover { transform: translateY(-3px); box-shadow: 0 0.75rem 1.5rem rgba(0,0,0,.08)!important; }
+.status-badge { padding: 0.35rem 0.6rem; border-radius: 999px; }
